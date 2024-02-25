@@ -2,12 +2,12 @@ Resources:
   first:
     Type: 'AWS::S3::Bucket'
     Properties: 
-      BucketName: cft-demo-25-feb
-      Tags:
-        - Key: aws
-          Value: training
-        - Key: Versioning
-          value: Enabled
+      # BucketName: cft-demo-25-feb
+      # Tags:
+      #   - Key: aws
+      #     Value: training
+      #   - Key: Versioning
+      #     value: Enabled
 
       VersioningConfiguration:
         Status: Enabled
